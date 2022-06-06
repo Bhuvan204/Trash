@@ -1,0 +1,98 @@
+#body{
+    padding: 0%;
+    margin: 0%;
+}
+
+#sec1{
+    background-image: url('par.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 0%;
+    row-gap: 60px;
+    border: aliceblue;
+    border-style: solid;
+}
+
+#head{
+    font-size: 100px;
+    color: aliceblue;
+    grid-column: 3;
+    grid-row: 3;
+    border: aliceblue;
+    border-style: solid;
+    text-align: center;
+}
+
+#dow{
+    font-size: 100px;
+    color: aliceblue;
+    grid-column: 3;
+    grid-row: 4;
+    text-align: center;
+}
+
+#b1{
+    font-size: 60px;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    border: aliceblue;
+    border-style: solid;
+    text-align: center;
+    background-color: blueviolet;
+    text-decoration: underline;
+}
+
+#sec2{
+    background-image: url('par.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 0%;
+    row-gap: 60px;
+    border: purple;
+    border-style: solid;
+}
+
+#regs{
+    font-size: 100px;
+    color: aliceblue;
+    grid-column: 3;
+    grid-row: 3;
+    border: aliceblue;
+    border-style: solid;
+    text-align: center;
+}
+
+#sec3{
+    background-image: url('par.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 0%;
+    row-gap: 60px;
+    border: purple;
+    border-style: solid;
+}
+
+#fo{
+    grid-column: 3;
+    grid-row: 3;
+    height: 500px;
+    border: blueviolet;
+    border-style: solid;
+    background-color: brown;
+}
