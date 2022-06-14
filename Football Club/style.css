@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS;
+}
+
+.sec1{
+    height: 100vh;
+    width: 100%;
+    background-color: darkslateblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    color: aliceblue;
+}
+
+.title{
+    grid-column: 3;
+    text-align: center;
+    grid-row: 1;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.con{
+    grid-column: 3;
+    text-align: center;
+    grid-row: 2;
+}
+
+.note{
+    grid-column: 3;
+    text-align: center;
+    grid-row: 4;
+}
+
+.sec2{
+    height: 100%;
+    width: 100%;
+    background-color: purple;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    color: aliceblue;
+}
+
+.title1{
+    grid-column: 3;
+    text-align: center;
+    grid-row: 1;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.con1{
+    grid-column: 3;
+    text-align: center;
+    grid-row: 2;
+}
+
+.sec3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.title3{
+    grid-column: 3;
+    text-align: center;
+    grid-row: 1;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.con3{
+    grid-column: 3;
+    text-align: center;
+    grid-row: 3;
+}
+
+.con3 button{
+    background-color: darkblue;
+    height: 200px;
+    width: 400px;
+    color: aliceblue;
+    font-size: 60px;
+    border: orange;
+    border-style: solid;
+    border-radius: 49px;
+}
+
+.sec4{
+    height: 100vh;
+    width: 100%;
+    background-color: darkslateblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    color: aliceblue;
+}
+
+.title4{
+    grid-column: 3;
+    text-align: center;
+    grid-row: 1;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.con4{
+    grid-column: 3;
+    text-align: center;
+    grid-row: 3;
+}
